@@ -1,1 +1,1 @@
-# UOLMyStudentRecord
+# UniversityOfLeicester - MyStudentRecord
