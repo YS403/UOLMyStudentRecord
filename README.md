@@ -1,1 +1,0 @@
-# UniversityOfLeicester - MyStudentRecord
