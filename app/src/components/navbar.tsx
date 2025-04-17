@@ -14,17 +14,19 @@ const Navbar = () => {
           </li>
           <li>
             <a href="#" className="hover:text-gray-200 transition-colors">
-              Student
+              Student & Staff
             </a>
           </li>
           <li>
             <a href="#" className="hover:text-gray-200 transition-colors">
-                Staff
+                
             </a>
           </li>
         </ul>
       </div>
+      
     </nav>
+    
   );
 };
 
