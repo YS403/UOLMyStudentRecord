@@ -8,12 +8,12 @@ const Login_box = () => {
       <div>
         <div className="flex items-center justify-center ">
           <div className="bg-white p-8 rounded-2xl shadow-xl w-3/5 text-center">
-            <h2 className="text-center text-2xl font-medium">
-              Choose your sign-in method
+            <h2 className="text-center text-2xl font-semibold text-gray-500">
+              Choose your Sign-in method 
             </h2>
-            <div>
+            <div className="my-5 bg-stone-50 rounded p-2">
               <button
-                className={`rounded py-3 w-1/2 text-base my-5 font-semibold
+                className={`rounded py-3 w-1/2 text-base  font-semibold hover:bg-sky-100
                 ${selected === "A" ? "bg-sky-100" : " "}
               `}
                 onClick={() => setSelected("A")}
@@ -21,7 +21,7 @@ const Login_box = () => {
                 Staff and Student
               </button>
               <button
-                className={`rounded py-3 w-1/2 text-base font-semibold
+                className={`rounded py-3 w-1/2 text-base font-semibold hover:bg-green-100
                 ${selected === "B" ? "bg-green-100 " : ""}
               `}
                 onClick={() => setSelected("B")}
@@ -121,7 +121,7 @@ const Login_box = () => {
                   />
                                   <a href="" className="text-center mt-3 ">Forgot Your Password?</a>
 
-                  <div className="bg-orange-100 mt-8 p-3 rounded">
+                  <div className="bg-orange-100 mt-5 p-3 rounded">
                     <h2 className="bg-orange-200 p-2 rounded font-medium text-orange-700">
                       New to MyStudentRecord
                     </h2>

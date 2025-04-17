@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
 
 
 :root {
@@ -8,7 +7,7 @@
   /* font-weight: 400; */
   color-scheme: light dark;
   color: #1F2937;
-  background-color: #F8F9FA;
+  background-color: #f1f2f4;
 
 
 }

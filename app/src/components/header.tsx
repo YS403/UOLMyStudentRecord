@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <>
     <div>
-    <h1 className="text-center px-8 py-5 text-3xl font-semibold">Sign in to MyStudentRecord</h1>
+    <h1 className="text-center px-8 py-10 text-4xl font-semibold">Sign in to  <span className="font-light">MyStudentRecord</span></h1>
     </div>
     
     </>
