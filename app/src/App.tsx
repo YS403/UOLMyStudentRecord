@@ -2,7 +2,7 @@
 import Navbar from "./components/Navbar"; 
 import Header from "./components/Header"; 
 import Login_box from "./components/Login_box"; 
-
+import Faq from "./components/Faq"
 import './App.css'
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
      <Navbar/>
      <Header/>
      <Login_box/>
+     <Faq/>
     </>
 
   )

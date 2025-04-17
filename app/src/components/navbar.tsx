@@ -1,12 +1,12 @@
-import logo from "../assets/UOL_logo.png"; // Adjust the path accordingly
+import logo from "../assets/UOL_logo1.png"; // Adjust the path accordingly
 import React from "react";
 
 const Navbar = () => {
   return (
-    <nav className="px-4 py-3 ">
+    <nav className="px-4 py-2 bg-red-500 ">
       <div className="max-w-7xl mx-auto flex justify-between items-center">
-        <div ><img src={logo} className="h-9 " /></div>
-        <ul className="flex space-x-6">
+        <div ><img src={logo} className="h-15 " /></div>
+        {/* <ul className="flex space-x-6">
           <li>
             <a href="#" className="hover:text-gray-200 transition-colors">
             Applicant
@@ -22,7 +22,7 @@ const Navbar = () => {
                 
             </a>
           </li>
-        </ul>
+        </ul> */}
       </div>
       
     </nav>
