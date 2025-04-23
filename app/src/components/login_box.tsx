@@ -13,7 +13,7 @@ const Login_box = () => {
             </h2>
             <div className="my-5 bg-stone-50 rounded p-2">
               <button
-                className={`rounded py-3 w-1/2 text-base  font-semibold hover:bg-sky-100
+                className={`rounded py-3 w-1/2 text-base  font-semibold 
                 ${selected === "A" ? "bg-sky-100" : " "}
               `}
                 onClick={() => setSelected("A")}
@@ -21,7 +21,7 @@ const Login_box = () => {
                 Staff and Student
               </button>
               <button
-                className={`rounded py-3 w-1/2 text-base font-semibold hover:bg-green-100
+                className={`rounded py-3 w-1/2 text-base font-semibold 
                 ${selected === "B" ? "bg-green-100 " : ""}
               `}
                 onClick={() => setSelected("B")}
@@ -35,7 +35,7 @@ const Login_box = () => {
                 <div className="bg-sky-100 rounded h-auto p-3 list-disc text-base list-inside text-gray-800 leading-relaxed space-y-4 text-left ">
                   <p className="text-sky-600">
                     If you have a university email account ending
-                    @student.le.ac.uk or @leicester.ac.uk sign in below using
+                    <b>@student.le.ac.uk</b> or <b>@leicester.ac.uk</b> sign in below using
                     your email address and the password for your university IT
                     account. If you require a password reset, please use the
                     Forgotten your password? link below.
@@ -51,48 +51,33 @@ const Login_box = () => {
                   </p>
                 </div>
                 <div className="flex flex-col text-left py-5 px-3  my-3 rounded">
-                  <label htmlFor="">University Of Leicester Email</label>
-                  <input
-                    type="email"
-                    name="email"
-                    id=""
-                    className="rounded h-9 bg-slate-100 border-1 border-solid border-gray-400 "
-                  />
-                  <label htmlFor="" className="mt-4">
-                    Password
-                  </label>
-                  <input
-                    type="text"
-                    name="password"
-                    id=""
-                    className=" rounded h-9 bg-slate-100 border-1 border-solid border-gray-400 "
-                  />
                   <input
                     type="submit"
-                    value="Sign In"
-                    className="bg-green-400 text-md mt-4 h-9 rounded text-white font-semibold"
+                    value="Staff and Student Sign In"
+                    className="bg-green-400 text-md mt-4 h-10 rounded text-white font-semibold"
                   />
-                  <a href="" className="text-center mt-3 ">Forgot Your Password?</a>
+                  <a href="" className="text-center mt-3 font-medium ">Forgot Your Password?</a>
                 </div>
               </div>
             ) : (
               <div>
                 <div className="bg-green-100 rounded h-auto p-3 list-disc text-base list-inside text-gray-800 leading-relaxed space-y-4 text-left ">
                   <p className="text-green-600">
-                    If you have submitted an application through the University
-                    of Leicester application form, you can sign in here using
+                    If you have submitted an application through the <b>University
+                    of Leicester application form</b>, you can sign in here using
                     the same details as you used for your application.
                   </p>
                   <p className="text-green-600">
-                    If you applied through UCAS, DfE or an agent submitted the
-                    application on your behalf and you are signing in for the
+                    If you applied through <b>UCAS, DfE or an agent submitted the
+                    application on your behalf</b> and you are signing in for the
                     first time, please click on the 'New User' button below to
                     set up your account. If you have already set up your
                     account, you can sign in here using the details you created.
                   </p>
                   <p className="text-green-600">
                     If you are an applicant and you have been asked to complete
-                    Online Registration for your course, choose the relevant
+                    <b>Online Registration</b>
+                     for your course, choose the relevant
                     option to set up your account or sign in and complete online
                     registration.
                   </p>
@@ -117,17 +102,17 @@ const Login_box = () => {
                   <input
                     type="submit"
                     value="Sign In"
-                    className="bg-green-400 text-md mt-4 h-9 rounded text-white font-semibold"
+                    className="bg-green-400 text-md mt-4 h-10 rounded text-white font-semibold"
                   />
-                                  <a href="" className="text-center mt-3 ">Forgot Your Password?</a>
+                                  <a href="" className="text-center mt-3 font-medium">Forgot Your Password?</a>
 
                   <div className="bg-orange-100 mt-5 p-3 rounded">
                     <h2 className="bg-orange-200 p-2 rounded font-medium text-orange-700">
                       New to MyStudentRecord
                     </h2>
                     <p className="text-orange-500 p-2">
-                      If you have applied through UCAS, DfE or an agent
-                      submitted the application on your behalf and you have not
+                      If you have applied through <b>UCAS, DfE or an agent
+                      submitted the application on your behalf</b> and you have not
                       previously created a MyStudentRecord account, please click
                       the 'New User' button below to set up your sign in
                       details.
